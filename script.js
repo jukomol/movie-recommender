@@ -10,7 +10,7 @@ const DEMO_MOVIES = {
             id: 1,
             title: "The Grand Budapest Hotel",
             overview: "The adventures of Gustave H, a legendary concierge at a famous European hotel between the wars, and Zero Moustafa, the protégé who becomes his most trusted friend.",
-            poster_path: null,
+            poster_path: "/eWdyYQrejLuKlKVhPnUFEtj7g3l.jpg",
             release_date: "2014-03-28",
             vote_average: 8.1,
             genre_ids: [35, 18]
@@ -19,7 +19,7 @@ const DEMO_MOVIES = {
             id: 2,
             title: "Paddington",
             overview: "A young Peruvian bear travels to London in search of a home. Finding himself lost and alone at Paddington Station, he meets the kindly Brown family, who offer him a temporary haven.",
-            poster_path: null,
+            poster_path: "/lbUPXOKFQNKUVkxOMatsk2zhoYb.jpg",
             release_date: "2014-11-28",
             vote_average: 7.2,
             genre_ids: [35, 10751, 16]
@@ -28,7 +28,7 @@ const DEMO_MOVIES = {
             id: 3,
             title: "La La Land",
             overview: "Mia, an aspiring actress, serves lattes to movie stars in between auditions and Sebastian, a jazz musician, scrapes by playing cocktail party gigs in dingy bars.",
-            poster_path: null,
+            poster_path: "/uDO8zWDhfWwoFdKS4fzkUJt0Rf0.jpg",
             release_date: "2016-12-09",
             vote_average: 7.9,
             genre_ids: [35, 18, 10402]
@@ -39,7 +39,7 @@ const DEMO_MOVIES = {
             id: 4,
             title: "Inside Out",
             overview: "Growing up can be a bumpy road, and it's no exception for Riley, who is uprooted from her Midwest life when her father starts a new job in San Francisco.",
-            poster_path: null,
+            poster_path: "/2H1TmgdfNtsKlU9jKdeNyYL5y8T.jpg",
             release_date: "2015-06-19",
             vote_average: 8.0,
             genre_ids: [16, 18, 10751]
@@ -48,7 +48,7 @@ const DEMO_MOVIES = {
             id: 5,
             title: "The Pursuit of Happyness",
             overview: "A struggling salesman takes custody of his son as he's poised to begin a life-changing professional endeavor.",
-            poster_path: null,
+            poster_path: "/12vF4nXz4HeBxgexK0AcGEIFRBu.jpg",
             release_date: "2006-12-15",
             vote_average: 8.0,
             genre_ids: [18]
@@ -59,7 +59,7 @@ const DEMO_MOVIES = {
             id: 6,
             title: "Mad Max: Fury Road",
             overview: "An apocalyptic story set in the furthest reaches of our planet, in a stark desert landscape where humanity is broken, and most everyone is crazed fighting for the necessities of life.",
-            poster_path: null,
+            poster_path: "/hA2ple9q4qnwxp3hKVNhroipsir.jpg",
             release_date: "2015-05-15",
             vote_average: 7.6,
             genre_ids: [28, 12, 878]
@@ -68,7 +68,7 @@ const DEMO_MOVIES = {
             id: 7,
             title: "John Wick",
             overview: "Ex-hitman John Wick comes out of retirement to track down the gangsters that took everything from him.",
-            poster_path: null,
+            poster_path: "/fZPSd91yGE9fCcCe6OoQr6E3Bev.jpg",
             release_date: "2014-10-24",
             vote_average: 7.4,
             genre_ids: [28, 53]
@@ -79,7 +79,7 @@ const DEMO_MOVIES = {
             id: 8,
             title: "The Princess Bride",
             overview: "In this enchantingly cracked fairy tale, the beautiful Princess Buttercup and the dashing Westley must overcome staggering odds to find happiness amid six-fingered swordsmen, murderous princes, Sicilians and rodents of unusual size.",
-            poster_path: null,
+            poster_path: "/gpxjoM0hl7JYOzC6p9OC3ZYfkNc.jpg",
             release_date: "1987-10-09",
             vote_average: 7.7,
             genre_ids: [12, 35, 10751, 14, 10749]
@@ -90,7 +90,7 @@ const DEMO_MOVIES = {
             id: 9,
             title: "Indiana Jones: Raiders of the Lost Ark",
             overview: "When Dr. Indiana Jones – the tweed-suited professor who just happens to be a celebrated archaeologist – is hired by the government to locate the legendary Ark of the Covenant, he finds himself up against the entire Nazi regime.",
-            poster_path: null,
+            poster_path: "/ceG9VzoRAVGwivFU403Wc3AHRys.jpg",
             release_date: "1981-06-12",
             vote_average: 7.9,
             genre_ids: [12, 28]
@@ -101,7 +101,7 @@ const DEMO_MOVIES = {
             id: 10,
             title: "Get Out",
             overview: "Chris and his girlfriend Rose go upstate to visit her parents for the weekend. At first, Chris reads the family's overly accommodating behavior as nervous attempts to deal with their daughter's interracial relationship, but as the weekend progresses, a series of increasingly disturbing discoveries lead him to a truth that he never could have imagined.",
-            poster_path: null,
+            poster_path: "/tFXcEccSQMf3lfhfXKSU9iRBpa3.jpg",
             release_date: "2017-02-24",
             vote_average: 7.7,
             genre_ids: [27, 53, 9648]
@@ -112,7 +112,7 @@ const DEMO_MOVIES = {
             id: 11,
             title: "Inception",
             overview: "Cobb, a skilled thief who commits corporate espionage by infiltrating the subconscious of his targets is offered a chance to regain his old life as payment for a task considered to be impossible: \"inception\", the implantation of another person's idea into a target's subconscious.",
-            poster_path: null,
+            poster_path: "/ljsZTbVsrQSqZgWeep2B1QiDKuh.jpg",
             release_date: "2010-07-16",
             vote_average: 8.3,
             genre_ids: [28, 878, 53]
@@ -123,7 +123,7 @@ const DEMO_MOVIES = {
             id: 12,
             title: "Superbad",
             overview: "Two co-dependent high school seniors are forced to deal with separation anxiety after their plan to stage a booze-soaked party goes awry.",
-            poster_path: null,
+            poster_path: "/ek8e8txUyUwd2BNqj6lFEerJfbq.jpg",
             release_date: "2007-08-17",
             vote_average: 7.2,
             genre_ids: [35]
@@ -357,43 +357,58 @@ function displayMovies(movies) {
                 movie.genre_ids.map(id => GENRES[id]).filter(g => g).slice(0, 2) : 
                 ['Movie'];
             
-            card.innerHTML = `
-                <div class="movie-poster" style="
-                    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                    color: white;
-                    font-size: 16px;
-                    text-align: center;
-                    font-weight: 600;
-                    height: 350px;
-                    position: relative;
-                ">
-                    <div>
-                        <div style="font-size: 40px; margin-bottom: 10px;">🎬</div>
-                        <div>${movie.title.length > 15 ? movie.title.substring(0, 12) + '...' : movie.title}</div>
-                    </div>
-                    <div class="movie-rating" style="position: absolute; top: 10px; right: 10px; background: rgba(0,0,0,0.8); color: #ffd700; padding: 5px 10px; border-radius: 20px; font-weight: 600; display: flex; align-items: center; gap: 5px;">
-                        ⭐ ${rating}
-                    </div>
-                    <div class="wishlist-icon ${isInWishlist ? 'active' : ''}" onclick="event.stopPropagation(); toggleWishlistItem(${movie.id})" style="position: absolute; top: 10px; left: 10px; background: ${isInWishlist ? '#ff4757' : 'rgba(0,0,0,0.8)'}; color: ${isInWishlist ? 'white' : '#ff4757'}; padding: 8px; border-radius: 50%; cursor: pointer; transition: all 0.3s ease;">
-                        ❤️
-                    </div>
+            // Create the poster element
+            const posterDiv = document.createElement('div');
+            posterDiv.className = 'movie-poster';
+            
+            if (movie.poster_path) {
+                // Try TMDB image first, with fallback to placeholder
+                posterDiv.style.backgroundImage = `url('${IMG_URL}${movie.poster_path}')`;
+                posterDiv.style.backgroundSize = 'cover';
+                posterDiv.style.backgroundPosition = 'center';
+                
+                // Create a hidden image to test loading
+                const testImg = document.createElement('img');
+                testImg.style.display = 'none';
+                testImg.onerror = () => {
+                    // Fallback to attractive placeholder
+                    createPosterPlaceholder(posterDiv, movie.title, movieGenres[0] || 'Movie');
+                };
+                testImg.src = `${IMG_URL}${movie.poster_path}`;
+                posterDiv.appendChild(testImg);
+            } else {
+                // Use placeholder directly
+                createPosterPlaceholder(posterDiv, movie.title, movieGenres[0] || 'Movie');
+            }
+            
+            // Add rating and wishlist overlays
+            posterDiv.innerHTML += `
+                <div class="movie-rating">
+                    <i class="fas fa-star"></i>
+                    <span>${rating}</span>
                 </div>
-                <div class="movie-info" style="padding: 1.5rem;">
-                    <div class="movie-title" style="font-size: 1.1rem; font-weight: 600; margin-bottom: 0.5rem; color: #ffffff;">${movie.title}</div>
-                    <div class="movie-year" style="color: #888; font-size: 0.9rem; margin-bottom: 0.5rem;">${year}</div>
-                    <div class="movie-genres" style="margin-bottom: 1rem;">
+                <div class="wishlist-icon ${isInWishlist ? 'active' : ''}" onclick="event.stopPropagation(); toggleWishlistItem(${movie.id})">
+                    <i class="fas fa-heart"></i>
+                </div>
+            `;
+
+            card.innerHTML = `
+                <div class="movie-info">
+                    <div class="movie-title">${movie.title}</div>
+                    <div class="movie-year">${year}</div>
+                    <div class="movie-genres">
                         ${movieGenres.map(genre => 
-                            `<span style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 3px 8px; border-radius: 10px; font-size: 0.8rem; margin-right: 5px;">${genre}</span>`
+                            `<span class="genre-tag">${genre}</span>`
                         ).join('')}
                     </div>
-                    <div class="movie-overview" style="font-size: 0.9rem; color: #ccc; line-height: 1.4; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;">
+                    <div class="movie-overview">
                         ${movie.overview || 'No overview available.'}
                     </div>
                 </div>
             `;
+            
+            // Insert poster at the beginning
+            card.insertBefore(posterDiv, card.firstChild);
             
             moviesGrid.appendChild(card);
         }
@@ -464,52 +479,45 @@ function createMovieCard(movie) {
     return card;
 }
 
-// Generate attractive placeholder for movie posters
-function generatePosterPlaceholder(title) {
-    // Create a simple data URL placeholder instead of complex SVG
-    const canvas = document.createElement('canvas');
-    canvas.width = 250;
-    canvas.height = 375;
-    const ctx = canvas.getContext('2d');
+// Create attractive poster placeholder
+function createPosterPlaceholder(element, title, genre) {
+    // Choose colors based on genre
+    const genreColors = {
+        'Action': 'linear-gradient(135deg, #ff6b6b 0%, #ee5a24 100%)',
+        'Comedy': 'linear-gradient(135deg, #feca57 0%, #ff9ff3 100%)',
+        'Drama': 'linear-gradient(135deg, #48dbfb 0%, #0abde3 100%)',
+        'Horror': 'linear-gradient(135deg, #2f1b69 0%, #000000 100%)',
+        'Romance': 'linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%)',
+        'Adventure': 'linear-gradient(135deg, #a8edea 0%, #fed6e3 100%)',
+        'Animation': 'linear-gradient(135deg, #ff9a56 0%, #ffad56 100%)',
+        'Family': 'linear-gradient(135deg, #74b9ff 0%, #0984e3 100%)',
+        'Science Fiction': 'linear-gradient(135deg, #6c5ce7 0%, #a29bfe 100%)',
+        'Thriller': 'linear-gradient(135deg, #2d3436 0%, #636e72 100%)',
+        'Mystery': 'linear-gradient(135deg, #2c2c54 0%, #40407a 100%)',
+        'Fantasy': 'linear-gradient(135deg, #5f27cd 0%, #00d2d3 100%)'
+    };
     
-    // Create gradient background
-    const gradient = ctx.createLinearGradient(0, 0, 250, 375);
-    gradient.addColorStop(0, '#667eea');
-    gradient.addColorStop(1, '#764ba2');
+    const gradient = genreColors[genre] || 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)';
+    const displayTitle = title.length > 20 ? title.substring(0, 17) + '...' : title;
     
-    ctx.fillStyle = gradient;
-    ctx.fillRect(0, 0, 250, 375);
+    element.style.background = gradient;
+    element.style.display = 'flex';
+    element.style.flexDirection = 'column';
+    element.style.alignItems = 'center';
+    element.style.justifyContent = 'center';
+    element.style.color = 'white';
+    element.style.textAlign = 'center';
+    element.style.position = 'relative';
+    element.style.fontFamily = "'Poppins', sans-serif";
     
-    // Add title text
-    ctx.fillStyle = 'white';
-    ctx.font = 'bold 18px Arial';
-    ctx.textAlign = 'center';
+    const placeholderContent = document.createElement('div');
+    placeholderContent.innerHTML = `
+        <div style="font-size: 60px; margin-bottom: 20px; text-shadow: 2px 2px 4px rgba(0,0,0,0.3);">🎬</div>
+        <div style="font-size: 16px; font-weight: 600; text-shadow: 1px 1px 2px rgba(0,0,0,0.5); padding: 0 15px; line-height: 1.3;">${displayTitle}</div>
+        <div style="font-size: 12px; margin-top: 10px; opacity: 0.8; text-transform: uppercase; letter-spacing: 1px;">${genre}</div>
+    `;
     
-    // Break long titles into multiple lines
-    const maxWidth = 200;
-    const words = title.split(' ');
-    let line = '';
-    let y = 150;
-    
-    for (let n = 0; n < words.length; n++) {
-        const testLine = line + words[n] + ' ';
-        const metrics = ctx.measureText(testLine);
-        const testWidth = metrics.width;
-        if (testWidth > maxWidth && n > 0) {
-            ctx.fillText(line, 125, y);
-            line = words[n] + ' ';
-            y += 25;
-        } else {
-            line = testLine;
-        }
-    }
-    ctx.fillText(line, 125, y);
-    
-    // Add movie icon
-    ctx.font = '40px Arial';
-    ctx.fillText('🎬', 125, y + 60);
-    
-    return canvas.toDataURL();
+    element.appendChild(placeholderContent);
 }
 
 // Load and display genres for a movie
