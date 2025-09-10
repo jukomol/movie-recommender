@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Recommender - Find Movies Based on Your Mood</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-film"></i>
+                <span>MoodFlix</span>
+            </div>
+            <div class="nav-menu">
+                <div class="search-container">
+                    <input type="text" id="searchInput" placeholder="Search movies..." class="search-input">
+                    <i class="fas fa-search search-icon"></i>
+                </div>
+                <button class="wishlist-btn" onclick="toggleWishlist()">
+                    <i class="fas fa-heart"></i>
+                    <span class="wishlist-count">0</span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Discover Movies That Match Your Mood</h1>
+            <p>Find the perfect movie for how you're feeling right now</p>
+            
+            <!-- Mood Selection -->
+            <div class="mood-selector">
+                <h3>How are you feeling today?</h3>
+                <div class="mood-buttons">
+                    <button class="mood-btn active" data-mood="happy" onclick="selectMood('happy')">
+                        <i class="fas fa-smile"></i>
+                        <span>Happy</span>
+                    </button>
+                    <button class="mood-btn" data-mood="sad" onclick="selectMood('sad')">
+                        <i class="fas fa-sad-tear"></i>
+                        <span>Sad</span>
+                    </button>
+                    <button class="mood-btn" data-mood="excited" onclick="selectMood('excited')">
+                        <i class="fas fa-fire"></i>
+                        <span>Excited</span>
+                    </button>
+                    <button class="mood-btn" data-mood="romantic" onclick="selectMood('romantic')">
+                        <i class="fas fa-heart"></i>
+                        <span>Romantic</span>
+                    </button>
+                    <button class="mood-btn" data-mood="adventurous" onclick="selectMood('adventurous')">
+                        <i class="fas fa-mountain"></i>
+                        <span>Adventurous</span>
+                    </button>
+                    <button class="mood-btn" data-mood="scary" onclick="selectMood('scary')">
+                        <i class="fas fa-ghost"></i>
+                        <span>Spooky</span>
+                    </button>
+                    <button class="mood-btn" data-mood="thoughtful" onclick="selectMood('thoughtful')">
+                        <i class="fas fa-brain"></i>
+                        <span>Thoughtful</span>
+                    </button>
+                    <button class="mood-btn" data-mood="funny" onclick="selectMood('funny')">
+                        <i class="fas fa-laugh"></i>
+                        <span>Funny</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Movies Section -->
+    <section class="movies-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 id="sectionTitle">Movies for Your Happy Mood</h2>
+                <div class="loading" id="loadingSpinner">
+                    <i class="fas fa-spinner fa-spin"></i>
+                </div>
+            </div>
+            
+            <div class="movies-grid" id="moviesGrid">
+                <!-- Movies will be dynamically loaded here -->
+            </div>
+            
+            <div class="load-more">
+                <button id="loadMoreBtn" onclick="loadMoreMovies()">Load More Movies</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Wishlist Modal -->
+    <div class="modal" id="wishlistModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>My Wishlist</h2>
+                <span class="close" onclick="toggleWishlist()">&times;</span>
+            </div>
+            <div class="modal-body">
+                <div id="wishlistContent">
+                    <!-- Wishlist items will be displayed here -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Movie Details Modal -->
+    <div class="modal" id="movieModal">
+        <div class="modal-content movie-details">
+            <span class="close" onclick="closeMovieModal()">&times;</span>
+            <div id="movieDetailsContent">
+                <!-- Movie details will be displayed here -->
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
